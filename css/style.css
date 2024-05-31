@@ -1,20 +1,36 @@
 /* Created by: Callie Burt
-* Created on: May 26th 2024
-* This CSS file defines the style for index.html ICS2O-Unit1-06-HTML
+* Created on: May 2024
+* This file contains the CSS for index.html
 */
-h1 {
-  text-align: center;
-  font-size: 250%;
-  background-color: mediumblue;
-  color: white;
-  padding: 30px;
+
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #000;
+  opacity: 0.001;
 }
 
-p {
-  text-align: center;
-  font-size: 150%;
-  background-color: orange;
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+.mdl-textfield__error {
+  color: lightgreen;
+}
+
+.page-content {
   color: white;
-  padding: 10px;
-  border: 3px solid black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  background-color: cornflowerblue;
 }
